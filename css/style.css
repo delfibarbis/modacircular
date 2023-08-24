@@ -26,6 +26,10 @@ body {
   position: relative;
 }
 
+.fh5co-sub-lead {
+  font: 8px/.4 Helvetica;
+  }
+  
 a {
   color: #3375d3;
   -webkit-transition: 0.5s;
