@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap');
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -18,7 +21,7 @@ body {
   line-height: 1.8;
   color: #777777;
   color: #7f7f7f;
-  background: #fff;
+  background: #e97a7a;
   height: 100%;
   position: relative;
 }
