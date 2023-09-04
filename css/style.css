@@ -21,9 +21,18 @@ body {
   line-height: 1.8;
   color: #777777;
   color: #7f7f7f;
-  background: #e97a7a;
+  background: #F2167D;
   height: 100%;
   position: relative;
+}
+ 
+.navbar-brand{
+  color: #FFF;
+font-family: Share Tech Mono;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .fh5co-sub-lead {
@@ -911,18 +920,20 @@ body {
   border-radius: 50px;
 }
 .btn.btn-primary {
-  background: #3375d3;
-  color: #fff;
+  background: #FFA711;
+  color: #000000;
   border: none !important;
   border: 2px solid transparent !important;
+  font: bold;
+  text-transform: uppercase;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #4AE3B5;
+  background: #ffffff;
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #393e46 !important;
-  color: #fff;
+  color: #ffffff;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
@@ -996,7 +1007,8 @@ body {
 }
 .owl-carousel .btn-primary:hover, .owl-carousel .btn-primary:focus, .owl-carousel .btn-primary:active {
   background: transparent !important;
-  border: 2px solid #4AE3B5 !important;
+  border: 2px solid #ffffff !important;
+
 }
 
 .owl-carousel .owl-controls,
