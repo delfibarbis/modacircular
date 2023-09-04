@@ -25,7 +25,8 @@ body {
   height: 100%;
   position: relative;
 }
- 
+
+
 .navbar-brand{
   color: #FFF;
 font-family: Share Tech Mono;
@@ -336,6 +337,7 @@ body {
 #fh5co-press,
 #fh5co-product-screenshots,
 #fh5co-tour {
+  background-color: #ffffff;
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
@@ -354,6 +356,8 @@ body {
 #fh5co-tour h3 {
   font-size: 30px;
 }
+
+/*
 #fh5co-tour .img-feature-1 {
   -webkit-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   -moz-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
@@ -361,10 +365,11 @@ body {
   -o-box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
   box-shadow: -1px -1px 58px -13px rgba(0, 0, 0, 0.9);
 }
+*/
 
 #fh5co-testimonials {
-  background: #4AE3B5;
-  background: #ba78ff;
+ 
+  background: #FFC727;
 }
 #fh5co-testimonials .section-heading h2 {
   color: white;
