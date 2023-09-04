@@ -24,8 +24,52 @@ body {
   background: #F2167D;
   height: 100%;
   position: relative;
+} 
+
+.home {  
+  /*agregado por mi y no sirve*/
+  transform-style: inactive !important;
+  position: static !important;
+  animation: none !important;
+animation-iteration-count: none !important;
+transition-property: none !important;
 }
 
+.owl-stage-outer { /*agregado por mi y no sirve*/
+  transform-style: inactive !important;
+  position: static !important;
+  animation: none !important;
+animation-iteration-count: none !important;
+transition-property: none !important;
+}
+
+.owl-carousel-main.owl-theme { /*agregado por mi y no sirve*/
+  transform-style: inactive !important;
+  position: static !important;
+  animation: none !important;
+animation-iteration-count: none !important;
+transition-property: none !important;
+}
+
+.owl-item {  /*agregado por mi y no sirve*/
+  transform-style: inactive !important;
+  position: static !important;
+  animation: none !important;
+animation-iteration-count: none !important;
+transition-property: none !important;
+}
+
+.owl-item :active{ /*agregado por mi y no sirve*/
+  transform-style: inactive !important;
+  position: static !important;
+  animation: none !important;
+animation-iteration-count: none !important;
+transition-property: none !important;
+}
+
+.owl-stage-outer owl-height { /*agregado por mi y no sirve*/
+  transition-property: none;
+}
 
 .navbar-brand{
   color: #FFF;
@@ -267,7 +311,9 @@ body {
 
 .owl-carousel-main .owl-stage-outer {
   overflow: invisible;
+  position:static;
 }
+
 @media screen and (max-width: 768px) {
   .owl-carousel-main .item {
     padding-top: 120px !important;
