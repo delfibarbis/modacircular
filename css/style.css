@@ -256,13 +256,14 @@ body {
 }
 
 .owl-carousel-main .owl-stage-outer {
-  overflow: visible;
+  overflow: invisible;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-main .item {
     padding-top: 120px !important;
   }
 }
+
 
 .section-heading {
   float: left;
